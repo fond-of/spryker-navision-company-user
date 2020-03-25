@@ -6,4 +6,9 @@
     <transfer name="CompanyUser">
         <property name="externalReference" type="string"/>
     </transfer>
+
+    <transfer name="CompanyUserResponse">
+        <property name="isSuccessful" type="boolean" />
+        <property name="companyUser" type="CompanyUser" />
+    </transfer>
 </transfers>

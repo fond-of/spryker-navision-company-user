@@ -49,7 +49,7 @@ class CompanyUserReaderTest extends Unit
     {
         $this->companyUserTransferMock->expects($this->atLeastOnce())
             ->method('getExternalReference')
-            ->willReturn("string");
+            ->willReturn('string');
 
         $this->navisionCompanyUserRepositoryMock->expects($this->atLeastOnce())
             ->method('findCompanyUserByExternalReference')
@@ -65,7 +65,7 @@ class CompanyUserReaderTest extends Unit
     {
         $this->companyUserTransferMock->expects($this->atLeastOnce())
             ->method('getExternalReference')
-            ->willReturn("string");
+            ->willReturn('string');
 
         $this->navisionCompanyUserRepositoryMock->expects($this->atLeastOnce())
             ->method('findCompanyUserByExternalReference')

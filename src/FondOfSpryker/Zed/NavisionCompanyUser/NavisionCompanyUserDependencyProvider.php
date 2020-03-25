@@ -31,7 +31,7 @@ class NavisionCompanyUserDependencyProvider extends AbstractBundleDependencyProv
      */
     protected function addCompanyUserPropelQuery(Container $container): Container
     {
-        $container[static::PROPEL_QUERY_COMPANY_USER] = function () {
+        $container[static::PROPEL_QUERY_COMPANY_USER] = static function () {
             return SpyCompanyUserQuery::create();
         };
 

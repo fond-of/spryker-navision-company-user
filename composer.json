@@ -9,8 +9,7 @@
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "spryker/company-user": "^2.0.0"
+    "php": ">=7.1"
   },
   "require-dev": {
     "codeception/codeception": "^2.4",
