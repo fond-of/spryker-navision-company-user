@@ -8,7 +8,7 @@
     </transfer>
 
     <transfer name="CompanyUserResponse">
-        <property name="isSuccessful" type="boolean" />
+        <property name="isSuccessful" type="bool" />
         <property name="companyUser" type="CompanyUser" />
     </transfer>
 </transfers>
