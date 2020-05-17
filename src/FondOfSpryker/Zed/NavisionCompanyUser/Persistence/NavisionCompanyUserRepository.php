@@ -18,8 +18,6 @@ class NavisionCompanyUserRepository extends AbstractRepository implements Navisi
      * @param string $externalReference
      *
      * @return \Generated\Shared\Transfer\CompanyUserTransfer|null
-     *
-     * @throws
      */
     public function findCompanyUserByExternalReference(string $externalReference): ?CompanyUserTransfer
     {
